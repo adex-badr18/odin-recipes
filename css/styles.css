@@ -1,0 +1,37 @@
+/* Styles for nav bar  */
+nav {
+    width: 100%;
+    background-color: #556b9b;
+    color: #ffffff;
+}
+
+div.brand-logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+img.logo {
+    vertical-align: middle;
+}
+
+ul.menu {
+    list-style-type: none;
+    background-color: #556b9b;
+}
+
+li {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+li a {
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 16px;
+}
+
+li a:hover {
+    background-color: #192a4e;
+}
