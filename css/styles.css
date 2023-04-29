@@ -5,7 +5,7 @@ body {
 
 /* nav bar  */
 nav {
-    width: 100%;
+    width: 97.65%;
     background-color: #192a4e;
     color: #ffffff;
     padding: 16px;
@@ -69,8 +69,8 @@ img.hero-image {
 
 .hero-text {
     position: relative;
-    color: #192a4e;
-    padding: 10% 20px;
+    color: #f1f1f1;
+    padding: 5% 20px;
     font-size: 48px;
     font-weight: 900;
 }
