@@ -1,3 +1,8 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
 /* nav bar  */
 nav {
     width: 100%;
@@ -43,13 +48,58 @@ div.container {
     width: 85%;
 }
 
+/* hero section */
+
 div.hero {
-    border: 2px solid green;
-    background-image: url('../images/nigerian-foods.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 280px;
+    overflow: hidden;
+    position: relative;
+    height: 600px;
+    margin-top: 30px;
 }
 
-/* hero section */
-img.hero-image-index {}
+img.hero-image {
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    position: relative;
+    color: #192a4e;
+    padding: 10% 20px;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-text span {
+    font-size: 25px;
+}
+
+a.get-started {
+    padding: 15px;
+    border: 1px solid #192a4e;
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: #192a4e;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+/* main section */
+.popular {
+    color: #192a4e;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.horizontal-rule {
+    border: 3px solid #192a4e;
+    border-radius: 5px;
+    width: 257px;
+    margin-bottom: 50px;
+}
