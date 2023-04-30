@@ -25,12 +25,12 @@ ul.menu {
     background-color: #192a4e;
 }
 
-li {
+ul.menu li {
     display: inline-block;
     /* margin-bottom: 16px; */
 }
 
-li a {
+ul.menu li a {
     text-decoration: none;
     text-align: center;
     color: #ffffff;
@@ -38,7 +38,7 @@ li a {
     padding: 16px;
 }
 
-li a:hover {
+ul.menu li a:hover {
     background-color: #556b9b;
 }
 
@@ -90,7 +90,7 @@ a.get-started {
 }
 
 /* main section */
-.popular, .description-header {
+.popular, .subsection-header {
     color: #192a4e;
     font-size: 24px;
     margin-bottom: 0;
@@ -145,4 +145,42 @@ a.get-started {
     line-height: 28px;
     word-spacing: 2px;
     text-align: justify;
+}
+
+/* Rice Recipe */
+.ingredient-hr {
+    border: 3px solid #192a4e;
+    border-radius: 5px;
+    width: 112px;
+    margin-bottom: 30px;
+}
+
+.recipe-list {
+    font-size: 22px;
+    color: #192a4e;
+    line-height: 28px;
+    word-spacing: 2px;
+    margin-top: 0;
+}
+
+.ingredients h4 {
+    font-size: 22px;
+    color: #192a4e;
+    line-height: 28px;
+    word-spacing: 2px;
+    margin-bottom: 0;
+}
+
+.prep-hr {
+    border: 3px solid #192a4e;
+    border-radius: 5px;
+    width: 448px;
+    margin-bottom: 30px;
+}
+
+.served-hr {
+    border: 3px solid #192a4e;
+    border-radius: 5px;
+    width: 164px;
+    margin-bottom: 30px;
 }
