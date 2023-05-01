@@ -99,7 +99,8 @@ a.get-started {
 }
 
 /* main section */
-.popular, .subsection-header {
+.popular,
+.subsection-header {
     color: #192a4e;
     font-size: 24px;
     margin-bottom: 0;
@@ -112,16 +113,14 @@ a.get-started {
     margin-bottom: 50px;
 }
 
-.recipe-column {
-    float: left;
-    width: 31.5%;
-    margin: 0 10px;
+.recipe-row {
+    display: flex;
+    justify-content: space-between;
 }
 
-.recipe-row::after {
-    content: '';
-    display: table;
-    clear: both;
+.recipe-column {
+    width: 30%;
+    margin: 0 10px;
 }
 
 .recipe-card {
@@ -200,7 +199,8 @@ table {
     width: 25%;
 }
 
-table td, table th {
+table td,
+table th {
     border: 1px solid #ddd;
     padding: 8px;
 }
@@ -221,22 +221,48 @@ table th {
 
 /* Go to top link */
 .goto-top {
-    display: block; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: red; /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
+    display: block;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: red;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
     text-decoration: none;
-  }
-  
-  .goto-top:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
-  }
+}
+
+.goto-top:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
+}
+
+/* Chicken recipe */
+ol.recipe-list div {
+    display: flex;
+    align-items: center;
+}
+
+ol.recipe-list div img {
+    width: 350px;
+    height: auto;
+    margin: auto;
+}
