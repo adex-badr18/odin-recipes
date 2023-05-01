@@ -172,7 +172,7 @@ a.get-started {
     margin-top: 0;
 }
 
-.ingredients h4 {
+h4.nested-header {
     font-size: 22px;
     color: #192a4e;
     line-height: 28px;
