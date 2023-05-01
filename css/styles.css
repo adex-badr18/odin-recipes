@@ -4,7 +4,10 @@ body {
 }
 
 /* nav bar  */
-nav {
+nav#navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 97.65%;
     background-color: #192a4e;
     color: #ffffff;
@@ -16,8 +19,14 @@ div.brand-logo {
     font-weight: bold;
 }
 
+a.index {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
 img.logo {
     vertical-align: middle;
+    width: 70px;
 }
 
 ul.menu {
