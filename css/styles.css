@@ -240,3 +240,22 @@ table th {
   .goto-top:hover {
     background-color: #555; /* Add a dark-grey background on hover */
   }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* width: 97.65%; */
+    background-color: #192a4e;
+    color: #ffffff;
+    padding: 16px;
+    margin-top: 2em;
+  }
+
+  footer h6 {
+    font-size: 14px;
+    margin-left: 11em;
+    margin-top: -1em;
+    margin-bottom: 3px;
+  }
