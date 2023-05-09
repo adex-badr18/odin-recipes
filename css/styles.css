@@ -6,7 +6,7 @@ body {
 /* nav bar  */
 nav#navigation {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     width: 100%;
     background-color: #192a4e;
@@ -14,7 +14,6 @@ nav#navigation {
 }
 
 div.brand-logo {
-    font-size: 25px;
     font-weight: bold;
     margin: 15px 0 15px 15px;
 }
@@ -22,10 +21,17 @@ div.brand-logo {
 a.index {
     text-decoration: none;
     color: #f1f1f1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+a.index > span {
+    margin-left: 10px;
+    font-size: 24px;
 }
 
 img.logo {
-    vertical-align: middle;
     width: 60px;
 }
 
@@ -33,6 +39,7 @@ ul.menu {
     list-style-type: none;
     background-color: #192a4e;
     margin-right: 15px;
+    margin-left: auto;
 }
 
 ul.menu li {
