@@ -1,6 +1,11 @@
-body {
-    padding: 0;
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
     margin: 0;
+    padding: 0;
 }
 
 /* nav bar  */
@@ -16,6 +21,7 @@ nav#navigation {
 div.brand-logo {
     font-weight: bold;
     margin: 15px 0 15px 15px;
+
 }
 
 a.index {
@@ -264,21 +270,44 @@ table th {
 
   footer {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    /* width: 97.65%; */
     background-color: #192a4e;
     color: #ffffff;
     padding: 16px;
     margin-top: 2em;
   }
 
-  footer h6 {
+  footer div.brand {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+  }
+
+  footer div.footer-col {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    flex: 1;
+    padding: 5px;
+  }
+
+  footer div.brand a.index span {
+    font-size: 20px;
+  }
+
+  footer div.menu-links {
+    flex: 2;
+  }
+
+  footer div.brand h6 {
     font-size: 14px;
-    margin-left: 11em;
-    margin-top: -1em;
-    margin-bottom: 3px;
+
+  }
+
+  div.brand, div.menu-links {
+    border-right: 2px solid #fff;
   }
 
 .goto-top:hover {
